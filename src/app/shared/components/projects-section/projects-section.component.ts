@@ -17,8 +17,10 @@ export class ProjectsSectionComponent implements OnInit {
       this.loaded = true;
     })
 
-    AssetManager.getInstance().loadImage("1", "/assets/image-1.jpg")
+    AssetManager.getInstance().loadImage("1", "/assets/image-1.png")
+    AssetManager.getInstance().loadImage("1_hover", "/assets/image-2.jpg")
     AssetManager.getInstance().loadImage("2", "/assets/image-2.jpg")
+    AssetManager.getInstance().loadImage("2_hover", "/assets/image-1.png")
   }
 
 }
